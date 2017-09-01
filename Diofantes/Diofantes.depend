@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1504294248 source:c:\users\alumno-d\desktop\diofantes\main.cpp
+	<iostream>
+	<math.h>
+	<vector>
+
