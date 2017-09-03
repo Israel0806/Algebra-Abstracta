@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1503712916 source:c:\users\israe\desktop\semestre iii\algebra abstracta\mcd\main.cpp
+	<iostream>
+	<math.h>
+	<vector>
+
+1503716516 source:c:\users\israe\desktop\ucsp\semestre iii\algebra abstracta\mcd\main.cpp
+	<iostream>
+	<math.h>
+	<vector>
+
