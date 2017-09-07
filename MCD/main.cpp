@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void dividir(int a, int b)
+void EucliExt(int a, int b)
 {
     vector<int> q, r, u, v;
     r.push_back(a);
@@ -68,6 +68,6 @@ int main () {
 	int a,b;
 	cout<<"Ingrese dos numeros\n";
 	cin>>a>>b;
-    dividir(a,b);
+    EucliExt(a,b);
     return 0;
 }

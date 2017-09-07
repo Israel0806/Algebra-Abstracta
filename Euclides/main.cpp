@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int dividir(int a, int b)
+int Euclides(int a, int b)
 {
 	if(b==0)
 		return a;
@@ -11,13 +11,13 @@ int dividir(int a, int b)
 	a=d;
 	if(a<0)
 		a*=-1;
-	return dividir(a,b);
+	return Euclides(a,b);
 }
 
 int main (int argc, char *argv[]) {
 	int a,b;
 	cout<<"Ingrese dos numeros\n";
 	cin>>a>>b;
-	cout<<"\nmcd("<<a<<","<<b<<")="<<dividir(a,b);
+	cout<<"\nmcd("<<a<<","<<b<<")="<<Euclides(a,b);
 	return 0;
 }

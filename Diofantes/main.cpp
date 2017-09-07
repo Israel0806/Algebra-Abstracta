@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void dividir(int a, int b, int c)
+void Diofantes(int a, int b, int c)
 {
     vector<int> q, r, u, v;
     r.push_back(a);
@@ -82,6 +82,6 @@ int main () {
 	int a,b,c;
 	cout<<"Ingrese tres numeros\n";
 	cin>>a>>b>>c;
-    dividir(a,b,c);
+    Diofantes(a,b,c);
     return 0;
 }
