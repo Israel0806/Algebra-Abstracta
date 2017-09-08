@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include <math.h>
 #include <vector>
 
@@ -79,6 +80,7 @@ void Diofantes(int a, int b, int c)
 }
 
 int main () {
+    system("title, DIOFANTES");
 	int a,b,c;
 	cout<<"Ingrese tres numeros\n";
 	cin>>a>>b>>c;

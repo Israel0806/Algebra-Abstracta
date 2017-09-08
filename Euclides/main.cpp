@@ -1,5 +1,8 @@
 #include<iostream>
+#include <cstdlib>
+
 using namespace std;
+
 
 int Euclides(int a, int b)
 {
@@ -15,9 +18,11 @@ int Euclides(int a, int b)
 }
 
 int main (int argc, char *argv[]) {
+    system("title, EUCLIDES");
 	int a,b;
 	cout<<"Ingrese dos numeros\n";
 	cin>>a>>b;
 	cout<<"\nmcd("<<a<<","<<b<<")="<<Euclides(a,b);
+	cout<<endl<<endl;
 	return 0;
 }
