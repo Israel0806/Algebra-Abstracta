@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1505440833 source:c:\users\israe\desktop\modulos\main.cpp
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<vector>
+	<string.h>
+	<iostream>
+	<stdlib.h>
+	<math.h>
+	<vector>
+	<string.h>
+
