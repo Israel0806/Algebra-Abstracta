@@ -172,7 +172,7 @@ int main()
             int resultado = A.Exponente();
             cout<<"Resultado: "<<resultado;
             comprobarMOD(resultado,A.ex);
-            cout<<" % "<<A.ex<<" = "<<resultado<<endl;
+            cout<<" mod "<<A.ex<<" = "<<resultado<<endl;
             break;
             }
             case 4:
