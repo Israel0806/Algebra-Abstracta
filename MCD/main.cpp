@@ -56,7 +56,7 @@ void EucliExt(int a, int b)
     cout<<endl<<endl;
 
     cout<<a<<" * "<<u[u.size()-1]<<" + "<<b<<" * "<< v[v.size()-1]<<" = "
-        <<a*u[u.size()-1]<<" - "<<b*v[v.size()-1] <<" = "<<i<<endl<<endl;
+        <<a*u[u.size()-1]<<" + "<<b*v[v.size()-1] <<" = "<<i<<endl<<endl;
 
 }
 
