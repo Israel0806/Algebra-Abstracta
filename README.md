@@ -1,2 +1,1 @@
-# Algebra-Abstracta
-Ejercicios de Laboratorio
+# Eddy puto, deja de copiarte
